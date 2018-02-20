@@ -39,6 +39,7 @@ class BusinessCell: UITableViewCell{
         // Initialization code
     }
     override func layoutSubviews() {
+         super.layoutSubviews()
          nameLabel.preferredMaxLayoutWidth = nameLabel.frame.size.width
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
